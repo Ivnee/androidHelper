@@ -1,0 +1,5 @@
+{
+  "param1": 10,
+  "param2": 20
+}
+getResourses().openRawResourses(R.raw.info);//получаем этот ресурс джейсон

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments5.ActivityForFragment">
+    <FrameLayout
+        android:id="@+id/layoutForFragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_purple"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentOnActivity1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="com.geek.infoandroid.Fragments5.Fragment1"/>
+
+
+    <fragment
+        android:id="@+id/fragmentOnActivity2"
+        android:name="com.geek.infoandroid.Fragments5.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="49dp" />
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:costume="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert1"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="с одной кнопкой"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 кнопки"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert_list"
+        android:layout_width="match_parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_height="wrap_content"
+        android:text="со списком"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert_one"
+        android:layout_width="match_parent"
+        app:cornerRadius="10dp"
+        android:layout_height="wrap_content"
+        android:text="с выбором одного"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert_many"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="с выбором нескольких"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="с вьюхами"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dialog_frag"
+        android:layout_width="match_parent"
+        android:text="Dialog Fragment"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bottom_dialog"
+        android:layout_width="match_parent"
+        android:text="bottom dialog"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_height="wrap_content"/>
+
+    <com.example.mytrener.MyCustomView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        costume:my_color="@android:color/white"/>
+</LinearLayout>

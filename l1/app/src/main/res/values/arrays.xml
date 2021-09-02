@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array">
+        <item>arr1</item>
+        <item>arr2</item>
+        <item>arr3</item>
+        <item>arr4</item>
+        <item>arr5</item>
+        <item>arr6</item>
+        <item>arr7</item>
+    </string-array>
+    <integer-array name="imgs">
+        <item>@drawable/abc_vector_test</item>
+    </integer-array>
+</resources>
