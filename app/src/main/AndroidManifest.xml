@@ -17,9 +17,9 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".Kotlin.materialDesign.les3.bottomNavView.BottomNavViewActivityy"></activity>
         <activity android:name=".Kotlin.materialDesign.les3.tabs.TabActivity" />
-        <activity android:name=".RecyclerView6.RecyclerActivity" />
+        <activity android:name=".android.RecyclerView6.RecyclerActivity" />
         <activity
-            android:name=".Fragments5.ActivityForFragment"
+            android:name=".android.Fragments5.ActivityForFragment"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".MainActivity"
@@ -40,19 +40,19 @@
                     android:scheme="ivan" />
             </intent-filter>
         </activity>
-        <activity android:name=".IntentSingTonLifeCycle.IntentsActivity" />
-        <activity android:name=".IntentSingTonLifeCycle.Intents2" />
-        <activity android:name=".Level3libraries.Patterns.MvcAndObserver.MVCActivity" />
-        <activity android:name=".Level2.les6.BroadcastReceiver.Receiver.MainReceiver" />
+        <activity android:name=".android.IntentSingTonLifeCycle.IntentsActivity" />
+        <activity android:name=".android.IntentSingTonLifeCycle.Intents2" />
+        <activity android:name=".android.Level3libraries.Patterns.MvcAndObserver.MVCActivity" />
+        <activity android:name=".android.Level2.les6.BroadcastReceiver.Receiver.MainReceiver" />
 
         <service android:name=".Kotlin.les6ServiceAndBroadcast.ForegroundService" />
         <service
-            android:name=".Level2.les3.Services.MyService"
+            android:name=".android.Level2.les3.Services.MyService"
             android:enabled="true"
             android:exported="true" />
 
         <receiver
-            android:name=".Level2.les6.BroadcastReceiver.Receiver.MyReceiver123"
+            android:name=".android.Level2.les6.BroadcastReceiver.Receiver.MyReceiver123"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -60,7 +60,7 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".Level2.les6.Push.MyFirebase">
+        <service android:name=".android.Level2.les6.Push.MyFirebase">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

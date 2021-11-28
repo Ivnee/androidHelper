@@ -315,7 +315,7 @@ val length = (someObj as? String)?.length ?: -1
 val isString = someObj is String
 
 ////////////////ЦИКЛЫ
-fun cicle(){
+fun cycle(){
     for(i in 1..10) {//от 1 до 10
         print("Hello Kotlin!")
     }

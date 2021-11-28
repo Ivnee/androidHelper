@@ -7,7 +7,7 @@ class ChainsXML {
     <Button
     app:layout_constraintVertical_chainStyle="spread"
     app:layout_constraintHorizontal_chainStyle="spread_inside"
-        spread_inside(крайние вью крепятся к краям дэйаута)
+        spread_inside(крайние вью крепятся к краям лэйаута)
         packed(все будут по центу друг к другу()можно добавить маргинов просто)
     app:layout_constraintHorizontal_weight="1"//устанавливается для каждого элемена,указывает вес по горизонтали(ширину на 0dp)
 
@@ -22,8 +22,9 @@ class Barrier{
     android:id="@+id/barrier"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:barrierDirection="end"//будет крепиться к концу указанных вьюх
-    app:constraint_referenced_ids="tv1,tv2"/>//вью ,к которым прекрепится барьер (прикрепится к концу)
+    app:constraint_referenced_ids="tv1,tv2"//выбираем вьюхи ,к которым прекрепится барьер (прикрепится к концу)
+    app:barrierDirection="end"/>//где будет линия относительно выбранных вьюх
+
     *
  */
 
@@ -34,4 +35,16 @@ class group{/*
     app:constraint_referenced_ids="tv1,tv2"//какие вью добавили в группу
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>*/
+}
+class guidline{
+/*
+    <androidx.constraintlayout.widget.Guideline
+    android:id="@+id/gl1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintGuide_percent="0.2"//отодвинется от начала экрана на 20 проц
+    android:orientation="vertical"//как будет расположена линия
+    />
+*/
+
 }

@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/home"
         android:label="home"
-        android:name="com.geek.infoandroid.Fragments5.Fragment1"
+        android:name="com.geek.infoandroid.android.Fragments5.Fragment1"
         tools:layout="@layout/fragment1"/>
 
 </navigation>

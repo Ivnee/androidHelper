@@ -6,13 +6,13 @@
     app:startDestination="@id/home1">
     <fragment
         android:id="@+id/home1"
-        android:name="com.geek.infoandroid.Fragments5.Fragment1"
+        android:name="com.geek.infoandroid.android.Fragments5.Fragment1"
         android:label="home"
         tools:layout="@layout/fragment1"/>
 
     <fragment
         android:id="@+id/home2"
-        android:name="com.geek.infoandroid.Fragments5.Fragment2"
+        android:name="com.geek.infoandroid.android.Fragments5.Fragment2"
         android:label="home2"
         tools:layout="@layout/fragment2"/>
 

@@ -30,8 +30,9 @@ class CollapingToolbar {
                     app:layout_collapseMode="pin"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"/>
+
                     </com.google.android.material.appbar.CollapsingToolbarLayout>
-                    </com.google.android.material.appbar.AppBarLayout>
+                </com.google.android.material.appbar.AppBarLayout>
 
             <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"

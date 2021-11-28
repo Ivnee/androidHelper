@@ -3,8 +3,10 @@ package com.geek.infoandroid.Kotlin.materialDesign.les3.tabs
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
+import androidx.viewpager2.widget.ViewPager2
 import com.geek.infoandroid.R
 import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 
 // для установки индикатора(точки указывающие текущий фрагмент)
 // implementation 'com.tbuonomo:dotsindicator:4.2'
@@ -27,6 +29,16 @@ class TabActivity : AppCompatActivity() {
         //установка дот индикатора
         val dotsIndicator = findViewById<WormDotsIndicator>(R.id.dots_indicator)
         dotsIndicator.setViewPager(viewPager)
+    }
+
+//ViewPager2
+    fun tabAndViewPager2(){
+    val viewPager2 = findViewById<ViewPager2>(R.id.view_pager)
+    viewPager2.adapter = ViewPagerAdapter2(this)//задаем адаптер нашему вью пейджеру
+
+    TabLayoutMediator(findViewById(R.id.tab_layout),viewPager2){tab,position->//аттачим вью пейджер с таб лейаутом
+        tab.text = "фрагмент номер ${position + 1}"
+    }
     }
 
 }

@@ -12,7 +12,7 @@ class GenericClass<T>(val value:T)where T:Serializable,T:Comparable<String>{//с
 }
 
 
-//из лекции про in (extends) и out(super)
+//из лекции про in (super) и out(extends)
 class Producer<out T> {//как extends в джава для дженерика(out только возвращает инфу fun не принимают аргументы)
     fun produce() : T? {
         return null

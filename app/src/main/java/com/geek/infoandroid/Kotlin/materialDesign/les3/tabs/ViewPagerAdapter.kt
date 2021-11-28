@@ -4,8 +4,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import com.example.myweather.ui.browser.BrowserFragment
-import com.geek.infoandroid.Fragments5.Fragment1
-import com.geek.infoandroid.Fragments5.Fragment2
+import com.geek.infoandroid.android.Fragments5.Fragment1
+import com.geek.infoandroid.android.Fragments5.Fragment2
 //типы адаптеров
 //FragmentStatePagerAdapter - создает фрагменты по мере их открытия и уничтожает предыдущие(идеально для книг)
 //FragmentPagerAdapter - хранит фрагменты в памяти(идеально когда мало фрагментов)

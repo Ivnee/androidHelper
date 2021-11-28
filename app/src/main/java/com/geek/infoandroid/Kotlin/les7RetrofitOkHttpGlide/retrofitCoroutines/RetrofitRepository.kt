@@ -1,12 +1,11 @@
 package com.geek.infoandroid.Kotlin.les7RetrofitOkHttpGlide.retrofitCoroutines
 
-import com.geek.infoandroid.Level2.les4.RetrofitInfo.RetrofitModel.Weather
+import com.geek.infoandroid.android.Level2.les4.RetrofitInfo.RetrofitModel.Weather
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.lang.Exception
 
 class RetrofitRepository {
 //это можно в даггере реализовать и пропихнуть в зависимость в репозиторий

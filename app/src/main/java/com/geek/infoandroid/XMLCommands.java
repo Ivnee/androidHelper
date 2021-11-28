@@ -68,7 +68,7 @@ https://romannurik.github.io/AndroidAssetStudio/(CСЫЛКА ДЛЯ КАРТИН
             app:cardBackgroundColor="@color/cardview_shadow_start_color"//цвет фона в кард вью(обычный бэкграунд работать не будет)/>
 
        <fragment
-        android:name="com.geek.infoandroid.Fragments5.Fragment1"/>  //какой фрагмент отображаем
+        android:name="com.geek.infoandroid.android.Fragments5.Fragment1"/>  //какой фрагмент отображаем
 
 
 

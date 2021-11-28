@@ -47,7 +47,7 @@ class ScopeFunc : Fragment(R.layout.fragment1) {
         callback: ((result: RepositoryResult<List<Int>>) -> Unit)? = null,//сделали тип функции nullable и теперь можн оприсвоить значение этой функции Null(здесь null по дефолту,можно вообще эту функцию не трогать)
         callback2: (result: RepositoryResult<List<Int>>) -> Unit //
     ) {
-        callback?.invoke(RepositoryResult())//если налабл вызывается только через ?.invoke
+        callback?.invoke(RepositoryResult())//если налабл, вызывается только через ?.invoke
         callback2.invoke(RepositoryResult())//обычный вызов
     }
 
