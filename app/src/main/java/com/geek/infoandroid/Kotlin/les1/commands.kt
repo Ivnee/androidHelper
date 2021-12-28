@@ -18,6 +18,7 @@ class newCommands {
         someValue = "1"
         if (::someValue.isInitialized) {
             someValue = "2"
+            println()
         }//проверка свойства на инициализацию
     }
 

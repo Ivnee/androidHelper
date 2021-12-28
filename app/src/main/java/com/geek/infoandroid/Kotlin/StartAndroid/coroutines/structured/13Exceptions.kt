@@ -19,7 +19,7 @@ class `13Exceptions` {
             print(throwable.stackTrace)
         }
         scope.launch (handler){  }//при врзникновении ошибки она распечатается и рне будет креша(можно в дочернюю launch(handler))
-//SupervisorJob //есби в скопе супервизор ,то ошибка в корутине 1.1 отменит 1 и 1.2 . 2.1 и 2.2 продолжат работу
+//SupervisorJob //есби в скопе супервизор ,то ошибка в корутине 1.1 отменит 1 и 1.2 ;; 2.1 и 2.2 продолжат работу
         val scopeSupervisor = CoroutineScope(
             SupervisorJob()//не отменяет все корутинны ,которые находятся в этом scope,отменяет только те ,кто ниже по уровню
                 +Dispatchers.Default

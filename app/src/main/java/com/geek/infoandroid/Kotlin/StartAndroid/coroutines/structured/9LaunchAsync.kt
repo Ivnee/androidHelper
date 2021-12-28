@@ -13,6 +13,7 @@ class `9LaunchAsync` {
             val job2 = launch {  }
             job.join()//дождаться завершения корутины,без джоина не будет ждать выполнения корутины
             job2.join()//распаралеливание работ
+            GlobalScope
             print("finish code")
         }
         val job3= scope.launch(start = CoroutineStart.LAZY) {  }//отложенный запуск корутины

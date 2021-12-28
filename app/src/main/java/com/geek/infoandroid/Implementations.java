@@ -1,6 +1,39 @@
 package com.geek.infoandroid;
 
 public class Implementations {/*
+//Glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    //dagger 2
+    implementation 'com.google.dagger:dagger:2.35.1'
+    kapt 'com.google.dagger:dagger-compiler:2.35.1'
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.8'
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    //okHttp
+    implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+    //Rx-Java
+    implementation "io.reactivex.rxjava2:rxjava:2.2.21"
+    implementation "io.reactivex.rxjava2:rxkotlin:2.4.0"
+    implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
+    //Koin
+    def koin_version= "3.1.2"
+    implementation "io.insert-koin:koin-core:$koin_version"
+    implementation "io.insert-koin:koin-android:$koin_version"
+    implementation "io.insert-koin:koin-android-compat:$koin_version"
+    //coroutine
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-RC2'
+    //viewModel
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
+    //fragment ktx
+    implementation 'androidx.fragment:fragment-ktx:1.4.0'
+     //Coil
+    implementation 'io.coil-kt:coil:0.11.0'
+/////////////////////////////////////////////////
+
     implementation 'com.squareup:otto:1.3.8'// оттобас подключаем
     implementation "androidx.recyclerview:recyclerview:1.1.0"//ресайкл вью
     implementation 'com.google.android.material:material:1.2.0'// кард вью

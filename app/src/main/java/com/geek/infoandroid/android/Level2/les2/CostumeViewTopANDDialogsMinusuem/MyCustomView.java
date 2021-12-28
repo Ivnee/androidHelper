@@ -23,10 +23,10 @@ public class MyCustomView extends View {
         initView(null);
     }
 
-        public MyCustomView(Context context, @Nullable AttributeSet attrs) {//в хмл сможем создать
-            super(context, attrs);
-            initView(attrs);
-        }
+    public MyCustomView(Context context, @Nullable AttributeSet attrs) {//в хмл сможем создать
+        super(context, attrs);
+        initView(attrs);
+    }
 
     public MyCustomView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {//сможем добавить стиль
         super(context, attrs, defStyleAttr);
